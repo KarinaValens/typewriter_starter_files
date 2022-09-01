@@ -20,7 +20,8 @@ function initLoop() {
 
 function loop() {
     //console.log("loop func loaded");
-    spaces = string.indexOf(" ");
+    spaces = string.indexOf(" "); //sounds
+
     if (counter < lengthOfString) {
         counter++;
         document.querySelector("#typewriter").innerHTML += string[counter];
